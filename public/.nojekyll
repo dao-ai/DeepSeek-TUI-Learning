@@ -1,0 +1,1 @@
+This file ensures GitHub Pages skips Jekyll processing, which would otherwise ignore files starting with _ (like _next/).

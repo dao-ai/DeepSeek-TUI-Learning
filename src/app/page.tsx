@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { stages } from "@/data/stages";
 import StageCard from "@/components/StageCard";
 
@@ -26,12 +27,12 @@ export default function Home() {
         </p>
 
         <div className="mt-8 flex items-center justify-center gap-3">
-          <a
+          <Link
             href="/stage/basic-interaction"
             className="rounded-lg bg-accent-green px-6 py-2.5 text-sm font-semibold text-bg-primary transition-colors hover:bg-accent-green/90"
           >
             开始学习
-          </a>
+          </Link>
           <a
             href="#stages"
             className="rounded-lg border border-border px-6 py-2.5 text-sm text-text-secondary transition-colors hover:border-text-muted hover:text-text-primary"
